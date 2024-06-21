@@ -1,0 +1,20 @@
+{
+    "name": "amir-astarabadi/hello-composer",
+    "description": "my first practical package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "amirpourastarabadi",
+            "email": "amirpourastarabadi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Amir\\Hello\\": "src/"
+        }
+    }
+}
